@@ -49,7 +49,7 @@ Example:
 <h3>Sub-subheading</h3>
 ```
 
-## Links and Anchors:
+## Anchors Tag:
 
 ### `<a>` Tag
 
@@ -60,7 +60,7 @@ Example:
 <a href="https://www.example.com">Visit Example</a>
 ```
 
-## Lists:
+## List Tags:
 
 ### Unordered List (`<ul>`) and List Item (`<li>`) Tags
 
@@ -123,7 +123,7 @@ Example:
 <!-- This is a comment -->
 ```
 
-Certainly! Let's dive into the details of using form-related HTML tags, including the `<form>` tag, `<label>` tag, `<input>` tag, `<textarea>` tag, and different types of input fields.
+ Let's dive into the details of using form-related HTML tags, including the `<form>` tag, `<label>` tag, `<input>` tag, `<textarea>` tag, and different types of input fields.
 
 ## Form Tags
 

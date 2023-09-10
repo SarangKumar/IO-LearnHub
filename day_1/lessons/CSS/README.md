@@ -191,7 +191,7 @@ In this example, the `<div>` element with the ID `header` will have a font size 
 <details>
 <summary>More on advance selectors</summary>
 
-Certainly! Advanced CSS selectors allow you to target elements based on various conditions beyond simple tag, class, or ID selectors. They provide more precise control over which elements should receive specific styles. Let's explore some advanced CSS selectors with code examples:
+Advanced CSS selectors allow you to target elements based on various conditions beyond simple tag, class, or ID selectors. They provide more precise control over which elements should receive specific styles. Let's explore some advanced CSS selectors with code examples:
 
 ### Attribute Selectors:
 

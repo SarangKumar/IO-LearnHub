@@ -8,7 +8,7 @@ We will assume you have the following understands.
 > As the materials will be available on [Github](https://github.com/SarangKumar/IO-LearnHub)
 
 
-2. You are familiar with atleast one programming langyage
+2. You are familiar with atleast one programming language
 
 > When we will start with Js we will come across many concepts of programming like loops, ternary operators, functions, etc. So it will be easy for you to understand the concepts so that we can finish with these topics smoothly.
 
