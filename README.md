@@ -2,7 +2,7 @@
 
 # Web Development Bootcamp Repository
 
-Welcome to the Web Development Bootcamp repository! 🚀
+Welcome to the **Introduction to Modern Web Development** repository! 🚀
 
 This repository is your gateway to a comprehensive 12-day web development journey. Whether you're a beginner or aiming to enhance your skills, this bootcamp covers a wide range of topics, from foundational HTML and CSS to advanced technologies like React and Next.js.
 
@@ -15,8 +15,6 @@ This repository is your gateway to a comprehensive 12-day web development journe
 - 💡 **Solutions:** Find solutions to assignments in designated folders, along with explanations.
 
 - 🏆 **Challenges:** Optional coding challenges to test and stretch your abilities.
-
-- 💬 **Discussion:** Collaborate with fellow learners, ask questions, and share insights on the discussion board.
 
 - 🎉 **Projects:** Showcase your larger projects and assignments to the community.
 
@@ -32,13 +30,13 @@ This repository is your gateway to a comprehensive 12-day web development journe
 
 4. Join discussions, ask questions, and contribute your knowledge.
 
-5. Showcase your progress by submitting assignments and larger projects in the `projects/` directory.
-
-6. Contribute resources, recommendations, and improvements to the community.
 
 ## Let's Learn and Code Together!
 
 Whether you're new to coding or aiming to advance your skills, this repository is your compass on a rewarding web development journey. Fork, learn, code, and connect with an active community of learners. Let's build amazing web experiences together!
 
-🌐 Website: [Your Bootcamp Website Here]
-📧 Contact: [Your Contact Info Here]
+[Your way to start with learning](/prerequisite.md)
+
+#### Don't forget to star the repo :wink:
+
+[🌐 Github Profile](https://github.com/SarangKumar)
