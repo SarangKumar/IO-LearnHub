@@ -1,6 +1,5 @@
-# IO-LearnHub
+# Introduction to Modern Web Development
 
-# Web Development Bootcamp Repository
 
 Welcome to the **Introduction to Modern Web Development** repository! 🚀
 
@@ -35,8 +34,12 @@ This repository is your gateway to a comprehensive 12-day web development journe
 
 Whether you're new to coding or aiming to advance your skills, this repository is your compass on a rewarding web development journey. Fork, learn, code, and connect with an active community of learners. Let's build amazing web experiences together!
 
-[Your way to start with learning](/prerequisite.md)
+## How to use this repo
+- You must be familiar with the pre-requisites and are done with the setup. Use [this](/prerequisite.md) to get more insights.
+- Before the classes I will release the the content of each day in the respective folder. You can find the content in the `day-1/`, `day-2/`, ..., `day-12/` directories for daily content.
+- After you open the folder of the desired day a `README.md` file will be shown. It will cover all the topics that we will be covering in the class. You can also find the assignments in the same file.
+- You guys are required to go though that README file it will also provide the workflow and directions for that day.
 
 #### Don't forget to star the repo :wink:
 
-[🌐 Github Profile](https://github.com/SarangKumar)
+:octocat: [Github Profile](https://github.com/SarangKumar)

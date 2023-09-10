@@ -13,7 +13,10 @@ We will assume you have the following understands.
 > When we will start with Js we will come across many concepts of programming like loops, ternary operators, functions, etc. So it will be easy for you to understand the concepts so that we can finish with these topics smoothly.
 
 
-Not to mention you must have the enthusiasm to learn more and more. 😊
+### Recommendations
+- You should have a solid understanding of Markdown syntax. You may watch [this](https://youtu.be/HUBNt18RFbo) video to get started with Markdown.
+- You should not zone-out during the classes. You should be attentive and ask questions if you have any.
+- Not to mention you must have the enthusiasm to learn more and more. 😊
 
 ## Setting up your PC
 
@@ -21,7 +24,7 @@ Before we have our classes I would like you guys to setup a few things. Please m
 
 ### VS Code
 
-- You should have VS code installed on your PC.
+- You should have [VS code](https://code.visualstudio.com/download) installed on your PC.
 - Have extensions in your code editor is a great and productive assist, make sure you have a the given extensions installed in VS code.
 1. Auto Rename Tag by Jan Han 
 2. Babel JavaScript by Michael McDermott
