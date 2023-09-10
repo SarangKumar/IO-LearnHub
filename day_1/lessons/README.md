@@ -7,17 +7,26 @@ Welcome to Day 1 of **Introduction to Modern Web development** 🌟 Today, we're
 - **HTML:** Discover the building blocks of web pages and how to structure content using HTML elements.
 - **CSS:** Learn the basics of Cascading Style Sheets to add styling and layout to your HTML content.
 
+
+
 ## Lessons
 
-1. [Introduction to HTML](/day_1/lessons/HTML/README.md): Understand the purpose of HTML, tags, elements, and creating a basic HTML structure.
+### HTML
+- [Introduction to HTML](/day_1/lessons/HTML/README.md): Understand the purpose of HTML, tags, elements, and creating a basic HTML structure.
+- [HTML Template]('/day_1/lessons/HTML/html_template.html): This is how your html structure should look like while making a simple website with html
+- [HTML Tags](/day_1/lessons/HTML/tags.html)
 
-2. [Getting Started with CSS](/day_1/lessons/CSS/README.md): Learn how to apply styles to HTML elements using CSS.
 
-## Assignments
+### CSS
+[Getting Started with CSS](/day_1/lessons/CSS/README.md): Learn how to apply styles to HTML elements using CSS.
+
+
+
+<!-- ## Assignments
 
 1. [HTML Document Structure](assignments/assignment-1.md): Create an HTML page with proper structure and use essential HTML tags.
 
-2. [Basic Styling](assignments/assignment-2.md): Apply CSS to your HTML page for basic styling and layout adjustments.
+2. [Basic Styling](assignments/assignment-2.md): Apply CSS to your HTML page for basic styling and layout adjustments. -->
 
 
 <!-- ## Resources
