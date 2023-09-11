@@ -59,6 +59,7 @@ DAY_X
 # Directions
 
 - We will be having 12+1 classes in total. Each class will be of 2 hours. Except for the first one which will be of 1 hour.
+
 [Day 1](/day_1/) - September 11, Mon [Student Onboarding]
 Day 2 - September 13, Wed
 Day 3 - September 15, Fri
@@ -74,6 +75,9 @@ Day 12 - October 6, Fri
 Day 13 - October 7, Sat [Final Presentation]
 
 ## Evaluation policy
+> **Warning**
+Important for getting certificate of completion.
+
 - Every student should maintain a minimum attendance and do the assignments on time in order to get the certificate of completion. 
 - After each week i.e. after 3 classes there will be an assignment. You guys will be given 2 days to complete the assignment. The assignment will be evaluated on the basis of some criterias that will be attached in the `/assignment`. 
 - So for 3 weeks you will be given 3 assignments
