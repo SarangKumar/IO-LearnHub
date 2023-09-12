@@ -112,13 +112,33 @@
         align-self: flex-end;
       }
 
-        /* Flex Grow */
-        .flex-box > li.flex-grow {
-            flex-grow: 1;
-        }
-        .flex-box > li.flex-shrink {
-            flex-shrink: 1;
-        }
+      /* Flex Grow */
+      .flex-box > li.flex-grow {
+        flex-grow: 1;
+      }
+      .flex-box > li.flex-shrink {
+        flex-shrink: 1;
+      }
+
+      .layout-flex {
+        list-style-type: none;
+
+        display: flex;
+        flex-wrap: wrap;
+        height: 300px;
+        width: 300px;
+        background-color: yellow;
+        padding: 0;
+        margin: 0;
+
+        align-items: center;
+        justify-content: center;
+      }
+      .layout-flex.flex-box > li {
+        background-color: palegreen;
+        width: 100px;
+        height: 100px;
+      }
     </style>
   </head>
   <body>
@@ -307,6 +327,36 @@
       <li class="flex-shrink">3.</li>
       <li>4.</li>
       <li>5.</li>
+    </ul>
+
+    <h2>Layout using flex</h2>
+    
+    <ul class="layout-flex flex-box justify-start items-start">
+      <li></li>
+    </ul>
+    <ul class="layout-flex flex-box justify-center items-start">
+      <li></li>
+    </ul>
+    <ul class="layout-flex flex-box justify-end items-start">
+      <li></li>
+    </ul>
+    <ul class="layout-flex flex-box justify-start items-center">
+      <li></li>
+    </ul>
+    <ul class="layout-flex flex-box justify-center items-center">
+      <li></li>
+    </ul>
+    <ul class="layout-flex flex-box justify-end items-center">
+      <li></li>
+    </ul>
+    <ul class="layout-flex flex-box justify-start items-end">
+      <li></li>
+    </ul>
+    <ul class="layout-flex flex-box justify-center items-end">
+      <li></li>
+    </ul>
+    <ul class="layout-flex flex-box justify-end items-end">
+      <li></li>
     </ul>
   </body>
 </html>
