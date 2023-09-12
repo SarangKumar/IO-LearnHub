@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Text Properties</title>
+    <style>
+      /* Internal CSS */
+
+      /* Font Family */
+      .fontFamily > .arial {
+        font-family: Arial, sans-serif;
+      }
+      .fontFamily > .mono {
+        font-family: monospace;
+      }
+      .fontFamily > .fantasy {
+        font-family: fantasy;
+      }
+
+      /* Font Size */
+      .fontSize > .fs-10 {
+        font-size: 10px;
+      }
+      .fontSize > .fs-12 {
+        font-size: 12px;
+      }
+      .fontSize > .fs-16 {
+        font-size: 16px;
+      }
+      .fontSize > .fs-20 {
+        font-size: 20px;
+      }
+      .fontSize > .fs-30 {
+        font-size: 30px;
+      }
+
+      /* Font weight */
+      .fontWeight {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .fontWeight > .fw-100 {
+        font-weight: 100;
+      }
+      .fontWeight > .fw-200 {
+        font-weight: 200;
+      }
+      .fontWeight > .fw-300 {
+        font-weight: 300;
+      }
+      .fontWeight > .fw-400 {
+        font-weight: 400;
+      }
+      .fontWeight > .fw-500 {
+        font-weight: 500;
+      }
+      .fontWeight > .fw-600 {
+        font-weight: 600;
+      }
+      .fontWeight > .fw-700 {
+        font-weight: 700;
+      }
+      .fontWeight > .fw-800 {
+        font-weight: 800;
+      }
+      .fontWeight > .fw-900 {
+        font-weight: 900;
+      }
+
+      /* Font Style */
+      .fontStyle > .fs-normal {
+        font-style: normal;
+      }
+      .fontStyle > .fs-italic {
+        font-style: italic;
+      }
+      .fontStyle > .fs-oblique {
+        font-style: oblique;
+      }
+
+      /* Font Align */
+      .textAlign > .ta-left {
+        text-align: left;
+      }
+      .textAlign > .ta-center {
+        text-align: center;
+      }
+      .textAlign > .ta-right {
+        text-align: right;
+      }
+      .textAlign > .ta-justify {
+        text-align: justify;
+      }
+
+      /* Text Decoration */
+      .textDecoration > .td-none {
+        text-decoration: none;
+      }
+      .textDecoration > .td-underline {
+        text-decoration: underline;
+      }
+      .textDecoration > .td-overline {
+        text-decoration: overline;
+      }
+      .textDecoration > .td-line-through {
+        text-decoration: line-through;
+      }
+      .textDecoration > .td-line-through.td-line-color {
+        text-decoration-color: orange;
+      }
+      .textDecoration > .td-blink {
+        text-decoration: blink;
+      }
+
+      /* Text Transform */
+
+      .textTransform > .tt-none {
+        text-transform: none;
+      }
+      .textTransform > .tt-uppercase {
+        text-transform: uppercase;
+      }
+      .textTransform > .tt-lowercase {
+        text-transform: lowercase;
+      }
+      .textTransform > .tt-capitalize {
+        text-transform: capitalize;
+      }
+
+      /* Line Height */
+      .lineHeight > .lh-1 {
+        line-height: 1em;
+      }
+      .lineHeight > .lh-1_5 {
+        line-height: 1.5em;
+      }
+      .lineHeight > .lh-2 {
+        line-height: 2em;
+      }
+      .lineHeight > .lh-3 {
+        line-height: 3em;
+      }
+
+      /* Letter Spacing */
+      .letterSpacing > .ls-1 {
+        letter-spacing: 1px;
+      }
+      .letterSpacing > .ls-2 {
+        letter-spacing: 2px;
+      }
+      .letterSpacing > .ls-3 {
+        letter-spacing: 3px;
+      }
+      .letterSpacing > .ls-4 {
+        letter-spacing: 4px;
+      }
+      .letterSpacing > .ls-5 {
+        letter-spacing: 5px;
+      }
+
+      /* Word Spacing */
+      .wordSpacing > .ws-1 {
+        word-spacing: 1em;
+      }
+      .wordSpacing > .ws-2 {
+        word-spacing: 2em;
+      }
+      .wordSpacing > .ws-3 {
+        word-spacing: 3em;
+      }
+      .wordSpacing > .ws-4 {
+        word-spacing: 4em;
+      }
+      .wordSpacing > .ws-5 {
+        word-spacing: 5em;
+      }
+
+      /* Color */
+      .color > .c-red {
+        color: red;
+      }
+      .color > .c-#00ff00 {
+        color: #00ff00;
+      }
+      .color > .c-rgb_0_0_255 {
+        color: rgb(0, 0, 255);
+      }
+      .color > .c-rgba_0_0_255_0-5 {
+        color: rgba(0, 0, 255, 0.5);
+      }
+      .color > .c-hsl_120_100-_50- {
+        color: hsl(120, 100%, 50%);
+      }
+
+      /* Text Shadow */
+      .textShadow > .ts-1 {
+        text-shadow: 2px 2px #ff0000;
+      }
+      .textShadow > .ts-2 {
+        text-shadow: 2px 2px 4px #ff0000;
+      }
+      .textShadow > .ts-3 {
+        text-shadow: 2px 2px 20px #ff000088;
+      }
+      .textShadow > .ts-4 {
+        text-shadow: 2px 2px 5px #ff0000, 2px -2px 5px #00ff00,
+          -2px 2px 5px #0000ff, -2px -2px 5px #ffff00;
+      }
+
+      /* Text Indent */
+      .textIndent > .ti-1 {
+        text-indent: 2em;
+      }
+      .textIndent > .ti-2 {
+        text-indent: -2em;
+      }
+      .textIndent > .ti-3 {
+        text-indent: 3px;
+      }
+
+      /* Writing Mode */
+        .writingMode > .wm-horizontal-tb {
+            writing-mode: horizontal-tb;
+        }
+        .writingMode > .wm-vertical-rl {
+            writing-mode: vertical-rl;
+            width:100%;
+        }
+        .writingMode > .wm-vertical-lr {
+            writing-mode: vertical-lr;
+            /* background: #000; */
+            width:10vw;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Text Properties</h1>
+
+    <p class="text-example">This text has various text properties applied.</p>
+
+    <h2>Font-Family</h2>
+    <ul class="fontFamily">
+      <li class="arial">font-family: Arial</li>
+      <li class="mono">font-familty: Monospace</li>
+      <li class="fantasy">font-familty: Fantacy</li>
+    </ul>
+
+    <h2>Font-Size</h2>
+    <ul class="fontSize">
+      <li class="fs-10">font-size: 10px</li>
+      <li class="fs-12">font-size: 12px</li>
+      <li class="fs-16">font-size: 16px</li>
+      <li class="fs-20">font-size: 20px</li>
+      <li class="fs-30">font-size: 30px</li>
+    </ul>
+
+    <h2>Font-Weight</h2>
+    <ul class="fontWeight">
+      <li class="fw-100">font-weight: 100/thin</li>
+      <li class="fw-200">font-weight: 200/extra light</li>
+      <li class="fw-300">font-weight: 300/light</li>
+      <li class="fw-400">font-weight: 400/normal</li>
+      <li class="fw-500">font-weight: 500/medium</li>
+      <li class="fw-600">font-weight: 600/semi bold</li>
+      <li class="fw-700">font-weight: 700/bold</li>
+      <li class="fw-800">font-weight: 800/extrabold</li>
+      <li class="fw-900">font-weight: 900/black</li>
+    </ul>
+
+    <h2>Font-Style</h2>
+    <ul class="fontStyle">
+      <li class="fs-normal">font-style: normal</li>
+      <li class="fs-italic">font-style: italic</li>
+      <li class="fs-oblique">font-style: oblique</li>
+    </ul>
+
+    <h2>Font Variant</h2>
+    <ul class="fontVariant">
+      font-variant: normal; font-variant: no-common-ligatures proportional-nums;
+      font-variant: common-ligatures tabular-nums; font-variant: small-caps
+      slashed-zero;
+    </ul>
+
+    <h2>Text Align</h2>
+    <ul class="textAlign">
+      <li class="ta-left">text-align: left</li>
+      <li class="ta-center">text-align: center</li>
+      <li class="ta-right">text-align: right</li>
+      <li class="ta-justify">text-align: justify</li>
+    </ul>
+
+    <h2>Text Decoration</h2>
+    <ul class="textDecoration">
+      <li class="td-none">text-decoration: none</li>
+      <li class="td-underline">text-decoration: underline</li>
+      <li class="td-line-through">text-decoration: line-through</li>
+      <li class="td-line-through td-line-color">
+        text-decoration-color: orange
+      </li>
+      <li class="td-overline">text-decoration: overline</li>
+      <li class="td-blink">text-decoration: blink</li>
+    </ul>
+
+    <h2>Text Transform</h2>
+    <ul class="textTransform">
+      <li class="tt-none">text-transform: none</li>
+      <li class="tt-uppercase">text-transform: uppercase</li>
+      <li class="tt-lowercase">text-transform: lowercase</li>
+      <li class="tt-capitalize">text-transform: capitalize</li>
+    </ul>
+
+    <h2>Line Height</h2>
+    <ul class="lineHeight">
+      <li class="lh-1">line-height: 1em</li>
+      <li class="lh-1_5">line-height: 1.5em</li>
+      <li class="lh-2">line-height: 2em</li>
+      <li class="lh-3">line-height: 3em</li>
+    </ul>
+
+    <h2>Letter Spacing</h2>
+    <ul class="letterSpacing">
+      <li class="ls-1">letter-spacing: 1px</li>
+      <li class="ls-2">letter-spacing: 2px</li>
+      <li class="ls-3">letter-spacing: 3px</li>
+      <li class="ls-4">letter-spacing: 4px</li>
+      <li class="ls-5">letter-spacing: 5px</li>
+    </ul>
+
+    <h2>Word Spacing</h2>
+    <ul class="wordSpacing">
+      <li class="ws-1">word-spacing: 1em</li>
+      <li class="ws-2">word-spacing: 2em</li>
+      <li class="ws-3">word-spacing: 3em</li>
+      <li class="ws-4">word-spacing: 4em</li>
+      <li class="ws-5">word-spacing: 5em</li>
+    </ul>
+
+    <h2>Color</h2>
+    <ul class="color">
+      <li class="c-red">color: red</li>
+      <li class="c-#00ff00">color: #00ff00</li>
+      <li class="c-rgb_0_0_255">color: rgb(0, 0, 255)</li>
+      <li class="c-rgba_0_0_255_0-5">color: rgba(0, 0, 255, 0.5)</li>
+      <li class="c-hsl_120_100-_50-">color: hsl(120, 100%, 50%)</li>
+    </ul>
+
+    <h2>Text Shadow</h2>
+    <p>
+      text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit;
+    </p>
+    <ul class="textShadow">
+      <li class="ts-1">text-shadow: 2px 2px #ff0000;</li>
+      <li class="ts-2">text-shadow: 2px 2px #ff0000;</li>
+      <li class="ts-3">text-shadow: 2px 2px #ff0000;</li>
+      <li class="ts-4">text-shadow: 2px 2px #ff0000;</li>
+    </ul>
+
+    <h2>Text Indent</h2>
+    <ul class="textIndent">
+      <li class="ti-1">text-indent: 2em;</li>
+      <li class="ti-2">text-indent: -2em;</li>
+      <li class="ti-3">text-indent: 3px;</li>
+    </ul>
+
+    <h2>Writing Mode</h2>
+    <ul class="writingMode">
+        <li class="wm-horizontal-tb">writing-mode: horizontal-tb</li>
+        <li class="wm-vertical-rl">writing-mode: vertical-rl</li>
+        <li class="wm-vertical-lr">writing-mode: vertical-lr</li>
+    </ul>
+  </body>
+</html>

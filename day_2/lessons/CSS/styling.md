@@ -185,8 +185,10 @@ Certainly! Here's information about CSS animations using the same schema as the 
 
 CSS animations provide a way to add dynamic and engaging effects to web elements. They allow you to create smooth transitions, effects, and animations in web pages, enhancing the user experience.
 
-
-
 ---
 
 These are just a few examples of CSS properties and their values based on different categories. CSS offers a wide array of properties to control nearly every aspect of element styling, allowing you to create visually appealing and responsive web designs.
+
+
+[Read Prev: Selectors](/day_2/lessons/CSS/selectors.md)
+[Read Next: Hands On](/day_2/lessons/CSS/applyingcss.html)

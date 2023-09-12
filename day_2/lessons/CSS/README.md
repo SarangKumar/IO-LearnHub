@@ -33,8 +33,8 @@ In summary, CSS is a fundamental tool in web development that empowers designers
 
 ## Other Topics
 
-- [Types of linking](/day_1/lessons/CSS/css_linking.md): There are three ways to link CSS to HTML documents: external, internal, and inline. Each method has its own use cases and advantages.
+- [CSS Starters](/day_2/lessons/CSS/css_linking.md): There are three ways to link CSS to HTML documents: external, internal, and inline. Each method has its own use cases and advantages.
 
-- [Types of selectors](/day_1/lessons/CSS/selectors.md): There are a few ways how can you add styles to your HTML elements. You can use the universal selector, type selector, class selector, ID selector, and attribute selector.
+- [Types of selectors](/day_2/lessons/CSS/selectors.md): There are a few ways how can you add styles to your HTML elements. You can use the universal selector, type selector, class selector, ID selector, and attribute selector.
 
-- [Stying](/day_1/lessons/CSS/styling.md): There are many CSS properties that you can use to style your HTML elements. You can use properties like `color`, `font-family`, `font-size`, `font-weight`, `background-color`, `background-image`, `background-size`, `background-position`, `flex-direction`, `justify-content`, `align-items`, `grid-template-columns`, `grid-template-rows` and many many more. It becomes tedious if you try to memorize all of them. Instead, you should focus on understanding how to use them and where to find them. For this purpose I have grouped tags into categories and provided examples of each category.
+- [Stying](/day_2/lessons/CSS/styling.md): There are many CSS properties that you can use to style your HTML elements. You can use properties like `color`, `font-family`, `font-size`, `font-weight`, `background-color`, `background-image`, `background-size`, `background-position`, `flex-direction`, `justify-content`, `align-items`, `grid-template-columns`, `grid-template-rows` and many many more. It becomes tedious if you try to memorize all of them. Instead, you should focus on understanding how to use them and where to find them. For this purpose I have grouped tags into categories and provided examples of each category.
