@@ -61,7 +61,7 @@ DAY_X
 We will be having 12+1 classes in total. Each class will be of 2 hours. Except for the first one which will be of 1 hour.
 
 - [Day 1](/day_1/) - September 11, Mon [Student Onboarding]
-- Day 2 - September 13, Wed
+- [Day 2](/day_2) - September 13, Wed
 - Day 3 - September 15, Fri
 - Day 4 - September 18, Mon
 - Day 5 - September 20, Wed
