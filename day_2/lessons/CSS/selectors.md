@@ -127,4 +127,4 @@ a:hover {
 These are some of the most commonly used CSS selectors. CSS allows for a wide range of selector combinations and specificity rules, enabling precise control over styling elements on a web page.
 
 [Read Prev: Linking](/day_2/lessons/CSS/css_linking.md)
-[Read Next: Basic CSS](/day_2/lessons/CSS/styling.md)
+[Read Next: Basic CSS Properties](/day_2/lessons/CSS/properties.md)

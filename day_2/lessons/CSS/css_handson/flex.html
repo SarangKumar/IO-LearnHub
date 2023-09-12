@@ -1,28 +1,312 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>CSS Flexbox</title>
     <style>
-        /* Internal CSS */
-        .flex-container {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 200px;
-            border: 1px solid #ccc;
+      /* Internal CSS */
+
+      h2 {
+        margin-block: 30px;
+      }
+      .flex-box {
+        display: flex;
+        padding: 10px;
+        /* border-color: #339;
+        border-radius: 10px;
+        border-style: solid; */
+        border: 2px solid #339;
+        border-radius: 5px;
+        list-style-type: none;
+        gap: 12px;
+      }
+      .flex-box > li {
+        height: 40px;
+        background-color: #3399ff;
+        width: 100px;
+        border-radius: 2px;
+        box-shadow: 2px 2px 5px #222;
+      }
+
+      .flex-box > li:nth-child(1) {
+        height: 20px;
+      }
+      .flex-box > li:nth-child(2) {
+        height: 40px;
+      }
+      .flex-box > li:nth-child(3) {
+        height: 60px;
+      }
+      .flex-box > li:nth-child(4) {
+        height: 80px;
+      }
+      .flex-box > li:nth-child(5) {
+        height: 100px;
+      }
+
+      /* Justify Content */
+      .flex-box.justify-normal {
+        justify-content: normal;
+      }
+      .flex-box.justify-start {
+        justify-content: flex-start;
+      }
+      .flex-box.justify-center {
+        justify-content: center;
+      }
+      .flex-box.justify-end {
+        justify-content: flex-end;
+      }
+      .flex-box.justify-between {
+        justify-content: space-between;
+      }
+      .flex-box.justify-evenly {
+        justify-content: space-evenly;
+      }
+      .flex-box.justify-around {
+        justify-content: space-around;
+      }
+      .flex-box.justify-stretch {
+        justify-content: stretch;
+      }
+      .flex-box.justify-stretch > li {
+        /* width: 100%; */
+      }
+
+      /* Align Items */
+      .flex-box.items-start {
+        align-items: flex-start;
+      }
+      .flex-box.items-center {
+        align-items: center;
+      }
+      .flex-box.items-end {
+        align-items: flex-end;
+      }
+
+      .flex-box.items-stretch {
+        align-items: stretch;
+      }
+
+      /* Flex direction */
+      .flex-box.flex-row {
+        flex-direction: row;
+      }
+      .flex-box.flex-col {
+        flex-direction: column;
+      }
+      .flex-box.flex-row-reverse {
+        flex-direction: row-reverse;
+      }
+      .flex-box.flex-col-reverse {
+        flex-direction: column-reverse;
+      }
+
+      /* Align Self */
+      .flex-box > li.self-start {
+        align-self: flex-start;
+      }
+      .flex-box > li.self-center {
+        align-self: center;
+      }
+      .flex-box > li.self-end {
+        align-self: flex-end;
+      }
+
+        /* Flex Grow */
+        .flex-box > li.flex-grow {
+            flex-grow: 1;
         }
-        .flex-item {
-            padding: 10px;
+        .flex-box > li.flex-shrink {
+            flex-shrink: 1;
         }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1>CSS Flexbox</h1>
-    <div class="flex-container">
-        <div class="flex-item">Item 1</div>
-        <div class="flex-item">Item 2</div>
-        <div class="flex-item">Item 3</div>
-    </div>
-    <p>Flexbox is a powerful layout system for building flexible and responsive designs.</p>
-</body>
+    <p>
+      Flex, short for "Flexible Box Layout," is a CSS (Cascading Style Sheets)
+      layout model used in web development to design and arrange elements within
+      a container. Its primary purpose is to provide a more efficient and
+      predictable way to distribute space and align items within a web page or
+      application, especially when the size of the container and its content can
+      vary.
+      <br />
+      Flexbox allows you to create complex layouts with ease, making it simpler
+      to design responsive and dynamic web interfaces. It's particularly useful
+      for aligning items within a container both horizontally and vertically and
+      for creating evenly spaced layouts.
+      <br />
+      In short, Flexbox is a CSS layout tool that helps web developers create
+      flexible and responsive designs by controlling the positioning and
+      alignment of elements within containers.
+    </p>
+
+    <h2>Flex : Justify properties</h2>
+
+    <p>Flex | justify-content: normal[default]</p>
+    <ul class="flex-box justify-normal">
+      <li>1.</li>
+      <li>2.</li>
+      <li>3.</li>
+      <li>4.</li>
+      <li>5.</li>
+    </ul>
+
+    <p>Flex | justify-content: flex-start</p>
+    <ul class="flex-box justify-start">
+      <li>1.</li>
+      <li>2.</li>
+      <li>3.</li>
+      <li>4.</li>
+      <li>5.</li>
+    </ul>
+
+    <p>Flex | justify-content: center</p>
+    <ul class="flex-box justify-center">
+      <li>1.</li>
+      <li>2.</li>
+      <li>3.</li>
+      <li>4.</li>
+      <li>5.</li>
+    </ul>
+
+    <p>Flex | justify-content: flex-end</p>
+    <ul class="flex-box justify-end">
+      <li>1.</li>
+      <li>2.</li>
+      <li>3.</li>
+      <li>4.</li>
+      <li>5.</li>
+    </ul>
+
+    <p>Flex | justify-content:space-between</p>
+    <ul class="flex-box justify-between">
+      <li>1.</li>
+      <li>2.</li>
+      <li>3.</li>
+      <li>4.</li>
+      <li>5.</li>
+    </ul>
+
+    <p>Flex | justify-content:space-around</p>
+    <ul class="flex-box justify-around">
+      <li>1.</li>
+      <li>2.</li>
+      <li>3.</li>
+      <li>4.</li>
+      <li>5.</li>
+    </ul>
+
+    <p>Flex | justify-content:space-evenly</p>
+    <ul class="flex-box justify-evenly">
+      <li>1.</li>
+      <li>2.</li>
+      <li>3.</li>
+      <li>4.</li>
+      <li>5.</li>
+    </ul>
+
+    <p>Flex | justify-content:stretch</p>
+    <ul class="flex-box justify-stretch">
+      <li>1.</li>
+      <li>2.</li>
+      <li>3.</li>
+      <li>4.</li>
+      <li>5.</li>
+    </ul>
+
+    <h2>Flex : Align Items properties</h2>
+
+    <p>Flex | align-items: flex-start</p>
+    <ul class="flex-box items-start">
+      <li>1.</li>
+      <li>2.</li>
+      <li>3.</li>
+      <li>4.</li>
+      <li>5.</li>
+    </ul>
+
+    <p>Flex : align-items: flex-end</p>
+    <ul class="flex-box items-end">
+      <li>1.</li>
+      <li>2.</li>
+      <li>3.</li>
+      <li>4.</li>
+      <li>5.</li>
+    </ul>
+
+    <p>Flex : align-items: center</p>
+    <ul class="flex-box items-center">
+      <li>1.</li>
+      <li>2.</li>
+      <li>3.</li>
+      <li>4.</li>
+      <li>5.</li>
+    </ul>
+
+    <p>Flex : align-items: stretch</p>
+    <ul class="flex-box items-stretch">
+      <li>1.</li>
+      <li>2.</li>
+      <li>3.</li>
+      <li>4.</li>
+      <li>5.</li>
+    </ul>
+
+    <h2>Flex: flex-direction</h2>
+
+    <p>Flex: flex-direction: row</p>
+    <ul class="flex-box flex-row">
+      <li>1.</li>
+      <li>2.</li>
+      <li>3.</li>
+      <li>4.</li>
+      <li>5.</li>
+    </ul>
+
+    <p>Flex: flex-direction: column</p>
+    <ul class="flex-box flex-col">
+      <li>1.</li>
+      <li>2.</li>
+      <li>3.</li>
+      <li>4.</li>
+      <li>5.</li>
+    </ul>
+
+    <p>Flex: flex-direction: row-reverse</p>
+    <ul class="flex-box flex-row-reverse">
+      <li>1.</li>
+      <li>2.</li>
+      <li>3.</li>
+      <li>4.</li>
+      <li>5.</li>
+    </ul>
+
+    <p>Flex: flex-direction: column-reverse</p>
+    <ul class="flex-box flex-col-reverse">
+      <li>1.</li>
+      <li>2.</li>
+      <li>3.</li>
+      <li>4.</li>
+      <li>5.</li>
+    </ul>
+
+    <h2>Flex: align-self</h2>
+    <ul class="flex-box items-end">
+      <li class="slef-end">1. end</li>
+      <li class="self-start">2. start</li>
+      <li class="self-center">3. center</li>
+      <li class="">4.</li>
+      <li>5.</li>
+    </ul>
+
+    <h2>Flex: flex-grow, flex-shrink</h2>
+    <ul class="flex-box">
+      <li>1.</li>
+      <li class="flex-grow">2.</li>
+      <li class="flex-shrink">3.</li>
+      <li>4.</li>
+      <li>5.</li>
+    </ul>
+  </body>
 </html>

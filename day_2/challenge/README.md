@@ -4,6 +4,8 @@
 - You may replicate the [screenshot](/day_2/challenge/challenge_readme.png) given below or make your own.
 - It will be appreciated if you try to replicate any actual npm package documentation page or atleast a part of it, for example [chalk](/https://www.npmjs.com/package/chalk). It may not look exactly the same but you will learn a lot of things while trying to do so.
 
+![README Image](/day_2/challenge/challenge_readme.png)
+
 ## Things to keep in mind
 - Make sure you use symantic tags
 - Use (external) CSS to style your page.
