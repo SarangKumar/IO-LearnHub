@@ -1,5 +1,7 @@
 # Day 1 Challenges 
 
+## Challenge 1
+
 - Make a documentation page using HTML and basics of CSS.
 - You may replicate the [screenshot](/day_2/challenge/challenge_readme.png) given below or make your own.
 - It will be appreciated if you try to replicate any actual npm package documentation page or atleast a part of it, for example [chalk](/https://www.npmjs.com/package/chalk). It may not look exactly the same but you will learn a lot of things while trying to do so.
@@ -21,3 +23,10 @@
 ## Solution
 
 It is advised to attempt this challenge on your own before having a look at the [solution](/day_2/solution/index.html).
+
+---
+
+Challenge 2
+
+- Read more about [background](https://www.w3schools.com/cssref/css3_pr_background.php) properties.
+- Read More about [css grid](https://youtu.be/EiNiSFIPIQE).

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>CSS Background Properties</title>
     <style>
         /* Internal CSS */
@@ -9,11 +9,101 @@
             color: #fff;
             padding: 20px;
         }
+
+
+        /* Background Color */
+        .box{
+            width: 300px;
+            height: 300px;
+            background-color: #007acc;
+            border: 5px solid black;
+            margin: 20px;
+            border-radius: 5px;
+        }
+
+        /* Background Image */
+        .box.box-image{
+            background-image: url("../resourses/assets/sample.jpg");
+            /* background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center; */
+        }
+
+        .box.box-gradient-radial{
+            background-image: radial-gradient(circle, #007acc, #00ffe1);
+        }
+
+        .box.box-image-cover{
+            /* background-repeat: no-repeat; */
+            background-size: cover;
+            /* background-position: center; */
+        }
+        .box.box-image-contain{
+            background-size: contain;
+        }
+        .box.box-image-value{
+            background-size: 100px;
+        }
+
+        .box.box-gradient{
+            background-image: linear-gradient(to right, #007acc, #00ffe1);
+        }
+
+        .box.box-position{
+            background-position: right center;
+        }
+
+        .box.box-position-val{
+            background-position: 80% 30%;
+        }
+
+        .box-norepeat{
+            background-repeat: no-repeat;
+            background-size: 50px;
+        }
+        .
+        /* Background */
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1>CSS Background Properties</h1>
     <div class="bg-example">This is a div with a custom background color.</div>
     <p>Learn how to set background colors, images, and other properties.</p>
-</body>
+
+    <em
+      >background: bg-color bg-image position/bg-size bg-repeat bg-origin
+      bg-clip bg-attachment initial|inherit;</em
+    >
+
+    <h2>Background Color</h2>
+    <div class="box"></div>
+
+    <h2>Background Gradient</h2>
+    <div class="box box-gradient"></div>
+    
+    <h2>Background Gradient</h2>
+    <div class="box box-gradient-radial"></div>
+
+    <h2>Background Image</h2>
+    <div class="box box-image"></div>
+
+    <h2>Background size</h2>
+    <p>Background size: cover</p>
+    <div class="box box-image box-image-cover"></div>
+
+    <p>Background size: contain</p>
+    <div class="box box-image box-image-contain"></div>
+
+    <p>Background size: value(100px)</p>
+    <div class="box box-image box-image-value"></div>
+
+    <p>Background position: value(right center)</p>
+    <div class="box box-image box-image-value box-position"></div>
+
+    <p>Background position: value(80% 30%)</p>
+    <div class="box box-image box-image-value box-position-val"></div>
+
+    <p>Background repear: no-repeat</p>
+    <div class="box box-image box-norepeat"></div>
+  </body>
 </html>
