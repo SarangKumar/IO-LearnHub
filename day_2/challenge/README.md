@@ -30,3 +30,5 @@ It is advised to attempt this challenge on your own before having a look at the 
 
 - Read more about [background](https://www.w3schools.com/cssref/css3_pr_background.php) properties.
 - Read More about [css grid](https://youtu.be/EiNiSFIPIQE).
+- Read about [css transitio](https://www.w3schools.com/css/css3_transitions.asp) and [animations](https://www.w3schools.com/css/css3_animations.asp)
+- Read about [css positioning](https://www.w3schools.com/css/css_positioning.asp)
