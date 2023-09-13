@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .flex1 {
+          display: flex;
+          background-color: red;
+          height: 400px;
+          /* justify-content: end;
+          align-items: start; */
+      }
+
+      .flex1 > div{
+            height: 50px;
+            width: 100px;
+            margin: 10px;
+            background-color: blueviolet;
+        }
+
+        @media (max-width: 500px){
+            .flex1{
+                flex-direction: column;
+            }
+        }
+      /* .flex p {
+        color: red;
+      }
+      .flex > p {
+        color: green;
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="flex1">
+      <div>1.</div>
+      <div>2.</div>
+      <div>3.</div>
+      <div>4.</div>
+      <div>5.</div>
+      <div>6.</div>
+      <div>7.</div>
+    </div>
+  </body>
+</html>

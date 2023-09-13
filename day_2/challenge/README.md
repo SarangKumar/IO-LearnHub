@@ -26,7 +26,7 @@ It is advised to attempt this challenge on your own before having a look at the 
 
 ---
 
-Challenge 2
+## Challenge 2
 
 - Read more about [background](https://www.w3schools.com/cssref/css3_pr_background.php) properties.
 - Read More about [css grid](https://youtu.be/EiNiSFIPIQE).
