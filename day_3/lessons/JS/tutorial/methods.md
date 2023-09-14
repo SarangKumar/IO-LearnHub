@@ -1,3 +1,5 @@
+## Data type methods
+
 ### String Methods:
 
 1. **`length`**: Returns the length of a string.
@@ -209,9 +211,86 @@
 
 10. **`Object.is()` (ES6)**: Compares two values for strict equality (similar to `===`) with some differences, especially when dealing with special values like NaN and -0.
 
+```javascript
+Object.is(NaN, NaN); // true
+Object.is(0, -0); // false
+```
+
+Certainly! Here are 10 commonly used array methods in JavaScript:
+
+### Array Manipulation Methods:
+
+1. **`push()`**: Adds one or more elements to the end of an array and returns the new length of the array.
+
    ```javascript
-   Object.is(NaN, NaN); // true
-   Object.is(0, -0); // false
+   const fruits = ["apple", "banana"];
+   const newLength = fruits.push("orange"); // Returns 3, fruits is now ['apple', 'banana', 'orange']
    ```
 
-These are 10 methods for each of the three main data types in JavaScript, along with examples for each. Understanding these
+2. **`pop()`**: Removes the last element from an array and returns that element.
+
+   ```javascript
+   const fruits = ["apple", "banana", "orange"];
+   const removedFruit = fruits.pop(); // Returns 'orange', fruits is now ['apple', 'banana']
+   ```
+
+3. **`unshift()`**: Adds one or more elements to the beginning of an array and returns the new length of the array.
+
+   ```javascript
+   const fruits = ["banana", "orange"];
+   const newLength = fruits.unshift("apple"); // Returns 3, fruits is now ['apple', 'banana', 'orange']
+   ```
+
+4. **`shift()`**: Removes the first element from an array and returns that element.
+
+   ```javascript
+   const fruits = ["apple", "banana", "orange"];
+   const removedFruit = fruits.shift(); // Returns 'apple', fruits is now ['banana', 'orange']
+   ```
+
+5. **`splice()`**: Changes the contents of an array by removing, replacing, or adding elements at a specified position.
+
+   ```javascript
+   const fruits = ["apple", "banana", "orange"];
+   fruits.splice(1, 1, "grape"); // Removes 'banana' and adds 'grape', fruits is now ['apple', 'grape', 'orange']
+   ```
+
+### Array Access Methods:
+
+6. **`concat()`**: Combines two or more arrays and returns a new array without modifying the original arrays.
+
+   ```javascript
+   const arr1 = [1, 2];
+   const arr2 = [3, 4];
+   const combined = arr1.concat(arr2); // Returns [1, 2, 3, 4]
+   ```
+
+7. **`slice()`**: Returns a shallow copy of a portion of an array into a new array.
+
+   ```javascript
+   const fruits = ["apple", "banana", "orange", "grape"];
+   const selectedFruits = fruits.slice(1, 3); // Returns ['banana', 'orange']
+   ```
+
+### Array Iteration Methods:
+
+8. **`forEach()`**: Executes a provided function once for each array element.
+
+   ```javascript
+   const numbers = [1, 2, 3];
+   numbers.forEach((num) => console.log(num)); // Logs 1, 2, 3
+   ```
+
+9. **`map()`**: Creates a new array with the results of calling a provided function on every element in the array.
+
+   ```javascript
+   const numbers = [1, 2, 3];
+   const doubled = numbers.map((num) => num * 2); // Returns [2, 4, 6]
+   ```
+
+10. **`filter()`**: Creates a new array with all elements that pass the test implemented by a provided function.
+
+    ```javascript
+    const numbers = [1, 2, 3, 4, 5];
+    const evenNumbers = numbers.filter((num) => num % 2 === 0); // Returns [2, 4]
+    ```

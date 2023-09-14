@@ -2,7 +2,7 @@
 
 JavaScript code is a series of instructions that a computer can understand. Here are some fundamental syntax rules:
 
-- **Statements**: JavaScript programs consist of statements. Each statement typically ends with a semicolon (;), although in some cases, it's optional.
+- **Statements**: JavaScript programs consist of statements. Each statement typically ends with a semicolon ( ; ), although in some cases, it's optional.
 
    ```javascript
    let x = 5; // This is a statement
