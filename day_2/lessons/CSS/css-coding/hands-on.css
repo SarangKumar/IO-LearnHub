@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,600;0,700;1,200;1,300;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin: 5rem 0;
+    width: 550px;
+    /* border: 1px solid red; */
+}
+/* .container > header{
+} */
+
+.container > header > p{
+    color: blueviolet;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+}
+
+.container > header > h1{
+    font-size: 2rem;
+}
+
+.container > header > img {
+    width: 100%;
+    margin: 0.5rem 0;
+    object-fit: cover;
+    height: 200px;
+    border-radius: 10px;
+}
+
+section{
+    margin: 0.8rem 0;
+}
+section h2{
+    font-size: 1.5rem;
+}
+
+section p {
+    color: #444;
+    width: 100%;
+}
+
+.details{
+    border: 1px solid #44444444;
+    background-color: #eee;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    margin: 0.5rem 0;
+}
+
+.details h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.details > ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+form h2{
+    font-size: 1.5rem;
+    /* padding: ; */
+}
+
+form .two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+form .two > .one{
+    display: flex;
+    gap: 0.2rem;
+    flex-direction: column;
+}
+.one > label{
+    font-size: 0.8rem;
+    color: #444;
+}
+
+.one > input{
+    padding: 0.5rem 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.tac{
+    margin: 1rem 0;
+}
+.tac > a {
+    color: blueviolet;
+}
+
+form button{
+    background-color: blueviolet;
+    color: #fff;
+    width: 100%;
+    font-family: Poppins;
+    border: 0;
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+form button:hover{
+    background-color: rgb(123, 13, 225);
+    cursor: pointer;
+}
