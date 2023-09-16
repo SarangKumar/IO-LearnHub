@@ -8,6 +8,11 @@
 - I will be sending a google form where you have to fill in the details and the deployed url.
 - All of your works will be showcased in this repo.
 
+## Marks distribution for Assignment 1: Total Marks - 25
+- Able to deploy: 10 marks
+- How close it is to the actual website: 10 marks
+- Responsive: 5 marks
+
 ![Medium page template](/day_3/assignment/challenge_medium.png)
 # How to deploy
 
