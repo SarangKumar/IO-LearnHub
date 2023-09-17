@@ -26,6 +26,10 @@
 - Create required html and css files.
 - Make sure that the main `index.html` should be at the root level.
 
+> [!IMPORTANT]\
+> If you have done any changes in the github repo that is deployed then you don't need to deploy it again, it will automatically be reflected in the same.
+
+
 ## Upload the files and folder to github
 - After the github repo is created you will see a blue box in that particular repo with the title `Quick setup - if you've done this kind of thing before`
 - There click on `upload an existing file`
