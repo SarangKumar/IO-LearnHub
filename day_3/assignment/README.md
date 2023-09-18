@@ -8,6 +8,12 @@
 - I will be sending a google form where you have to fill in the details and the deployed url.
 - All of your works will be showcased in this repo.
 
+## Things to keep in mind
+- Make sure you use symantic tags
+- Use (external) CSS to style your page.
+- Make sure you include your `html` file is named as `index.html` and is in the root of the main branch.
+- Knowing about `flex`, `flex-direction`, `justify-between`, `grid`, `@media` &`object-fit` properties will be really helpful in making this.
+
 ## Marks distribution for Assignment 1: Total Marks - 25
 - Able to deploy: 10 marks
 - How close it is to the actual website: 10 marks
