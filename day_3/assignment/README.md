@@ -4,7 +4,7 @@
 
 - After that you will have to deploy that. See below for aid.
 - This assignment will be of 25 marks, marking scheme will be shared soon.
-- The deadline for this will be **17 Sept EOD**.
+- The deadline for this will be **19 Sept EOD**.
 - I will be sending a google form where you have to fill in the details and the deployed url.
 - All of your works will be showcased in this repo.
 
