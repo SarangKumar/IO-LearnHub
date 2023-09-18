@@ -1,4 +1,4 @@
-# Day 1 Challenges 
+# Day 2 Challenges 
 
 ## Challenge 1
 
