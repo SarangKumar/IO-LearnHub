@@ -50,7 +50,6 @@
 - Go to `Pages` which is under `Code and automation`
 - Select `Deploy from a branch` in the Source section
 - Select `main > /(root)` under the branch section. Hit `save` 
-- Give a `custom domain` to it, like `io-assignment-1` and hit `Save`
 - Wait for 4-5 minutes, then refresh. You will get the deployed link.
 
 > 🎉🎉 Wohooo your website is live
