@@ -23,15 +23,17 @@ Whether you're new to coding or aiming to advance your skills, this repository i
 ## What's Inside?
 
 ```bash
-DAY_X
-├───challenge
+day_x
+├───assignments
+├───challenges
 ├───lessons
 │   ├───Topic1
+│   │   ├───class
+│   │   └───tutorial
 │   └───Topic2
-├───resources
-│   └───assets
-├───assignmnet
-└───solution
+│       ├───class
+│       └───tutorial
+└───solutions
 ```
 
 - 📚 **Lessons:** Access daily lessons covering HTML, CSS, JavaScript, Tailwind CSS, MongoDB, GSAP, React, and Next.js.
