@@ -1,4 +1,4 @@
-### Function Declaration
+## Function Declaration
 
 In JavaScript, functions are blocks of reusable code that can take inputs (parameters), perform operations, and optionally return a result. Here's an in-depth explanation of function components:
 

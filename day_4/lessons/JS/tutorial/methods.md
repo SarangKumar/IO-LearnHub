@@ -1,6 +1,6 @@
-## Data type methods
+# Data type methods
 
-### String Methods:
+## String Methods:
 
 1. **`length`**: Returns the length of a string.
 
@@ -72,7 +72,7 @@
     let startsWithHello = message.startsWith("Hello"); // true
     ```
 
-### Number Methods:
+## Number Methods:
 
 1. **`toFixed(digits)`**: Formats a number with a fixed number of decimal places.
 
@@ -218,7 +218,7 @@ Object.is(0, -0); // false
 
 Certainly! Here are 10 commonly used array methods in JavaScript:
 
-### Array Manipulation Methods:
+## Array Manipulation Methods:
 
 1. **`push()`**: Adds one or more elements to the end of an array and returns the new length of the array.
 
@@ -255,7 +255,7 @@ Certainly! Here are 10 commonly used array methods in JavaScript:
    fruits.splice(1, 1, "grape"); // Removes 'banana' and adds 'grape', fruits is now ['apple', 'grape', 'orange']
    ```
 
-### Array Access Methods:
+## Array Access Methods:
 
 6. **`concat()`**: Combines two or more arrays and returns a new array without modifying the original arrays.
 
@@ -272,7 +272,7 @@ Certainly! Here are 10 commonly used array methods in JavaScript:
    const selectedFruits = fruits.slice(1, 3); // Returns ['banana', 'orange']
    ```
 
-### Array Iteration Methods:
+## Array Iteration Methods:
 
 8. **`forEach()`**: Executes a provided function once for each array element.
 

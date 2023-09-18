@@ -1,6 +1,12 @@
 # Day 3
 
-## Introduction to JavaScript
+## [Tailwind CSS](/day_4/lessons/Tailwind/)
+
+Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces. It is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.
+
+---
+
+## [Introduction to JavaScript](/day_4/lessons/JS/)
 
 JavaScript is a high-level, versatile, and widely-used programming language primarily employed for web development. It's essential for adding interactivity and dynamic behavior to websites. JavaScript can run directly in web browsers, making it an integral part of front-end development. Additionally, it can be used on the server side through technologies like Node.js, enabling full-stack development.
 

@@ -34,3 +34,16 @@ JavaScript is a high-level, versatile, and widely-used programming language prim
 <br />
 
 ![HTML CSS JS illustration](https://cdn.hashnode.com/res/hashnode/image/upload/v1634367897952/kNTZZPpMA.jpeg)
+
+### Index
+
+| S No | Topic                                                                      |
+| :--: | :------------------------------------------------------------------------- |
+|  0.  | [Node Installation](/day_4/lessons/JS/tutorial/node_install.md)            |
+|  1.  | [Js Syntax](/day_4/lessons/JS/tutorial/syntax.md)                          |
+|  2.  | [Variables](/day_4/lessons/JS/tutorial/variables.md)                       |
+|  3.  | [Data Types](/day_4/lessons/JS/tutorial/data-types.md)                     |
+|  4.  | [Methods](/day_4/lessons/JS/tutorial/methods.md)                           |
+|  5.  | [Operators](/day_4/lessons/JS/tutorial/operators.md)                       |
+|  6.  | [Control Flow: If-else, loops](/day_4/lessons/JS/tutorial/control-flow.md) |
+|  7.  | [Functions](/day_4/lessons/JS/tutorial/functions.md)                       |

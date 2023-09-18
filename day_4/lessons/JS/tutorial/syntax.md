@@ -29,18 +29,3 @@ JavaScript code is a series of instructions that a computer can understand. Here
 ## Functions
 
 Functions are reusable blocks of code that perform specific tasks. They help you organize and structure your code for better readability and maintainability. Here's a more detailed explanation of functions:
-
-### Function Declaration
-
-You can declare functions in JavaScript using the `function` keyword, followed by the function name, a list of parameters enclosed in parentheses, and a block of code enclosed in curly braces.
-
-```javascript
-function greet(name) {
-  console.log("Hello, " + name + "!");
-}
-```
-
-- `function`: The keyword used to declare a function.
-- `greet`: The name of the function.
-- `(name)`: The parameter(s) the function accepts. Parameters are like placeholders for values you pass when calling the function.
-- `{}`: The block of code that defines what the function does.

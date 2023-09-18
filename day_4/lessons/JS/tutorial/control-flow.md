@@ -1,8 +1,8 @@
-## Control Flow
+# Control Flow
 
 Control flow structures allow you to control the order in which statements are executed. Here are two key control flow constructs in JavaScript:
 
-### Conditional Statements (if, else if, else)
+## Conditional Statements (if, else if, else)
 
 Conditional statements let you execute code conditionally based on the evaluation of a condition:
 
@@ -39,7 +39,7 @@ if (age >= 18) {
   }
 ```
 
-### Loops (for, while)
+## Loops (for, while)
 
 Loops allow you to execute a block of code repeatedly. Two common types of loops are:
 
