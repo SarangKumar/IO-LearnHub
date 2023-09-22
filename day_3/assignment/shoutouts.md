@@ -1,11 +1,41 @@
 # A big shoutouts to those who attempted the challenge ✨🎺
 
-|                              Name                               |                          Repo Link                           |                        Deployed Link                         |
-| :------------------------------------------------------------- | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|        [Khushi Bhupesh](https://github.com/Khushi-B23)         |         https://github.com/Khushi-B23/assignment__1          |         https://khushi-b23.github.io/assignment__1/          |
-| [Arkul Prathamesh Shenoy](https://github.com/Prathameshshenoy) | https://github.com/Prathameshshenoy/Medium_Clone_Assignment1 | https://prathameshshenoy.github.io/Medium_Clone_Assignment1/ |
-|           [ATUL KRISHNA](https://github.com/Atulk47)           |            https://github.com/Atulk47/assignment             |            https://atulk47.github.io/assignment/             |
-|        [Ritika Seth](https://github.com/ritikaseth1003)        |           https://github.com/ritikaseth1003/Medium           |           https://ritikaseth1003.github.io/Medium/           |
-|          [Ashmith Reddy](https://github.com/ashmithr)          |           https://github.com/ashmithr/medium_clone           |           https://ashmithr.github.io/medium_clone/           |
-|      [Samved Suresh Jain](https://github.com/SamvedSama)       |          https://github.com/SamvedSama/AssignmentIO          |          https://samvedsama.github.io/AssignmentIO/          |
-|          [Vishal P](https://github.com/Vishal031004)           |        https://github.com/Vishal031004/Assignment--1         |        https://vishal031004.github.io/Assignment--1/         |
+| Name                                                                   |                          Repo Link                           |                             Deployed Link                             |
+| :--------------------------------------------------------------------- | :----------------------------------------------------------: | :-------------------------------------------------------------------: |
+| [Khushi Bhupesh](https://github.com/Khushi-B23)                        |         https://github.com/Khushi-B23/assignment__1          |              https://khushi-b23.github.io/assignment__1/              |
+| [Arkul Prathamesh Shenoy](https://github.com/Prathameshshenoy)         | https://github.com/Prathameshshenoy/Medium_Clone_Assignment1 |     https://prathameshshenoy.github.io/Medium_Clone_Assignment1/      |
+| [ATUL KRISHNA](https://github.com/Atulk47)                             |            https://github.com/Atulk47/assignment             |                 https://atulk47.github.io/assignment/                 |
+| [Ritika Seth](https://github.com/ritikaseth1003)                       |           https://github.com/ritikaseth1003/Medium           |               https://ritikaseth1003.github.io/Medium/                |
+| [Ashmith Reddy](https://github.com/ashmithr)                           |           https://github.com/ashmithr/medium_clone           |               https://ashmithr.github.io/medium_clone/                |
+| [Samved Suresh Jain](https://github.com/SamvedSama)                    |          https://github.com/SamvedSama/AssignmentIO          |              https://samvedsama.github.io/AssignmentIO/               |
+| [Vishal P](https://github.com/Vishal031004)                            |        https://github.com/Vishal031004/Assignment--1         |             https://vishal031004.github.io/Assignment--1/             |
+| [Angad Bhalla](https://github.com/Anga205)                             |     https://github.com/Anga205/pesuio-medium-assignment      |          https://anga205.github.io/pesuio-medium-assignment/          |
+| [Manasa Ranganath](https://github.com/ManasaRanganath)                 |     https://github.com/ManasaRanganath?tab=repositories      |          https://github.com/ManasaRanganath/ManasaRanganath           |
+| [Purva Sharma](https://github.com/purvas2005/Purva_slot16)             |          https://github.com/purvas2005/Assignmentr           |               https://purvas2005.github.io/Assignmentr/               |
+| [Neha S Babu](https://github.com/nehasbabu/Nehasbabu)                  |           https://github.com/nehasbabu/assignment1           |     https://github.com/nehasbabu/assignment1/blob/main/index.html     |
+| [NIKITHA CR](https://github.com/nikithachinnikatte)                    |     https://github.com/nikithachinnikatte/assignment.git     | https://github.com/nikithachinnikatte/assignment/blob/main/index.html |
+| [Sneha Verma](https://github.com/Snehavermaa)                          |            https://github.com/Snehavermaa/slot-16            |                https://snehavermaa.github.io/slot-16/                 |
+| [Dennis Philip](https://github.com/DennisPhilip)                       |         https://github.com/DennisPhilip/Medium_Clone         |             https://dennisphilip.github.io/Medium_Clone/              |
+| [Adarsh Arun Hoskere](https://github.com/Pabsthegreat)                 |        https://github.com/Pabsthegreat/PESUI-OWebDev         |             https://pabsthegreat.github.io/PESUI-OWebDev/             |
+| [viharika](https://github.com/viharikreddy/project-1)                  |        https://github.com/viharikreddy/project-1.git         |    https://github.com/viharikreddy/project-1/blob/main/indexx.html    |
+| [A V Vedanth](https://github.com/escape-kinetics)                      |    https://github.com/escape-kinetics/pes-io-assignment-1    |        https://escape-kinetics.github.io/pes-io-assignment-1/         |
+| [Anshita Sharma](https://github.com/anshita-3)                         |             https://github.com/anshita-3/pesuio              |                  https://anshita-3.github.io/pesuio/                  |
+| [NAGARJUN](https://github.com/Arjun2453hi)                             |           https://github.com/Arjun2453hi/Webdevhw            |                https://arjun2453hi.github.io/Webdevhw/                |
+| [Adarsh Nambiath](https://github.com/adarshnambiath)                   |      https://github.com/adarshnambiath/assignment1final      |          https://adarshnambiath.github.io/assignment1final/           |
+| [Sahaj Bangalore Sujay](https://github.com/SahajBS)                    |          https://github.com/SahajBS/Day3Assignment           |               https://sahajbs.github.io/Day3Assignment/               |
+| [Shubham Jain](https://github.com/ShubhamJain9674)                     |      https://github.com/ShubhamJain9674/htmlassignment       |           https://shubhamjain9674.github.io/htmlassignment/           |
+| [Tarun Ragunath](https://github.com/Elkrisent)                         |        https://github.com/Elkrisent/pesuioassignment         |             https://elkrisent.github.io/pesuioassignment/             |
+| [Paranshu Raj Chinthala](https://github.com/ParanshuRaj)               |         https://github.com/ParanshuRaj/Assignment-1          |    file:///C:/Users/deepa/Desktop/HTML/index.html/Assignment.html     |
+| [Shravani K](https://github.com/shravani004)                           |            https://github.com/shravani004/Second             |                 https://shravani004.github.io/Second/                 |
+| [Dhruv Jain](https://github.com/DhruvJ12421)                           |        https://github.com/DhruvJ12421/Html-Assignment        |            https://dhruvj12421.github.io/Html-Assignment/             |
+| [Arjun Sharma](https://github.com/arjsh16)                             |              https://github.com/arjsh16/webdev               |                   https://arjsh16.github.io/webdev/                   |
+| [Keerthi N](https://github.com/Keerthi-1906)                           |     https://github.com/Keerthi-1906/-assignment-webpage      |          https://keerthi-1906.github.io/-assignment-webpage/          |
+| [Manit Bohra ](https://github.com/Alex-Hunterz)                        |      https://github.com/Alex-Hunterz/PESUIO-Assignments      |          https://alex-hunterz.github.io/PESUIO-Assignments/           |
+| [Sri sucheta p](https://github.com/Sucheta05)                          |          https://github.com/sucheta05/assignment_1/           |               https://sucheta05.github.io/assignment_1/               |
+| [Sameer](https://github.com/sgksameerkulkarni)                         |     https://github.com/sgksameerkulkarni/assignment_day3     |         https://sgksameerkulkarni.github.io/assignment_day3/          |
+| [Shashank](https://github.com/shashank1225)                            |         https://github.com/shashank1225/assignment1          |              https://shashank1225.github.io/assignment1/              |
+| [Kashish Mittal](https://github.com/Kash1sh600)                        |          https://github.com/Kash1sh600/assignment1           |               https://kash1sh600.github.io/assignment1/               |
+| [Pranjalaa Jayaram Rai](https://github.com/Pranjalaa)                  |       https://github.com/Pranjalaa/Pesuio-Assignments        |            https://pranjalaa.github.io/Pesuio-Assignments/            |
+| [Swayam Advani](https://github.com/Swayamadvani)                       |            https://github.com/Swayamadvani/index             |                 https://swayamadvani.github.io/index/                 |
+| [Johan Koshy](https://github.com/jo13han)                              |          https://github.com/jo13han/IO-Assignment-1          |              https://jo13han.github.io/IO-Assignment-1/               |
+| [Talanki Venkat Tarun](https://github.com/vTarun3330/Medium_Clone.git) |          https://github.com/vTarun3330/Medium_Clone          |              https://vtarun3330.github.io/Medium_Clone/               |
