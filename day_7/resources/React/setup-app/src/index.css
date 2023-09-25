@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.para{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f00;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#id-name{
+    color: yellow;
+}
