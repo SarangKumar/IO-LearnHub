@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML with JS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-slate-900 text-white flex justify-center">
+    <main class="w-full sm:max-w-2xl px-2 sm:px-24 py-24">
+      <h1 class="text-3xl font-bold py-4 underline">
+        BMI Calculator<span class="text-red-600">.</span>
+      </h1>
+
+      <form action="" class="flex flex-col w-full gap-y-4">
+        <div class="w-full flex flex-col gap-y-1">
+          <label for="height" class="text-sm font-medium"
+            >Enter height
+            <span class="text-red-600 text-xs">(in m)</span></label
+          >
+          <input
+            type="number"
+            id="height"
+            placeholder="Height"
+            class="text-black px-2 py-2.5 rounded focus:outline-red-500 focus:outline-3"
+          />
+        </div>
+        <div class="flex w-full flex-col gap-y-1">
+          <label for="weight" class="text-sm font-medium"
+            >Enter weight
+            <span class="text-red-600 text-xs">(in kg)</span></label
+          >
+          <input
+            type="number"
+            id="weight"
+            placeholder="Weight"
+            class="text-black px-2 py-2.5 rounded focus:outline-red-500 focus:outline-3"
+          />
+        </div>
+
+        <button
+          type="reset"
+          class="bg-white text-slate-800 inline-block w-8 h-8 flex justify-center items-center rounded-full"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99"
+            />
+          </svg>
+        </button>
+
+        <button
+          type="button"
+          onclick="handleClick()"
+          class="hover:bg-red-700 transition-colors hover:shadow w-full bg-red-600 font-bold py-2.5 rounded text-xl my-2"
+        >
+          Calculate
+        </button>
+      </form>
+
+      <div class="result cursor-no-drop text-right my-3">Result</div>
+    </main>
+  </body>
+
+  <script src="./main.js"></script>
+</html>
