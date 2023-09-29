@@ -94,18 +94,26 @@
 //   );
 // }
 
-
-import React from 'react'
-import Animation0 from './components/Animation0'
+import React from "react";
+import Animation0 from "./components/Animation0";
+import Animation1 from "./components/Animation1";
+import Animation2 from "./components/Animation2";
+import Animation3 from "./components/Animation3";
 
 const App = () => {
   return (
-
     <div>
-    <p className="text-sm">App component</p>
-    <Animation0 />
+      <p className="text-sm">App component</p>
+      <Animation0 />
+      <div className="h-[50vh]"></div>
+      <Animation1 />
+      <div className="h-[50vh]"></div>
+      <Animation2 />
+      <div className="h-[50vh]"></div>
+      <Animation3 />
+      <div className="h-[50vh]"></div>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
