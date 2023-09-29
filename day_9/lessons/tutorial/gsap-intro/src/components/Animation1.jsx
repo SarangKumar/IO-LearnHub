@@ -11,10 +11,11 @@ const Animation1 = () => {
     [];
   return (
     <div>
-      <p className="text-sm ">Animation1</p>
+      <p className="text-sm text-white font-bold bg-blue-500 px-5 py-2 rounded my-2">
+        Animation 1
+      </p>
+
       <div className="space-y-5">
-
-
         <section className="flex mx-5">
           <div>
             <div className="relative h-20 w-20 rounded-full border-slate-400 border border-dashed">
