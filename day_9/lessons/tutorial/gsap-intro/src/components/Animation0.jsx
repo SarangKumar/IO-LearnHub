@@ -12,7 +12,7 @@ const Animation0 = () => {
       </p>
 
       <h1 className="heading mt-5 font-semibold text-xl text-teal-500">
-        Animation0
+        Animation 0
       </h1>
     </>
   );

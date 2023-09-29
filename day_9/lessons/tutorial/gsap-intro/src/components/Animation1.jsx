@@ -3,7 +3,7 @@ import React, { useLayoutEffect } from "react";
 
 const Animation1 = () => {
   useLayoutEffect(() => {
-    gsap.to(".red-to", { x: 200, delay: 1 });
+    gsap.to(".red-to", { x: 50, delay: 1 });
     gsap.from(".red-from", { x: 200, delay: 1 });
     gsap.set(".red-set", { x: 200, delay: 1 });
     gsap.fromTo(".red-fromTo", { x: 200, delay: 1 }, { x: 100, delay: 1 });

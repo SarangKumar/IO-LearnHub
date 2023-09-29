@@ -117,7 +117,7 @@ const Animation2 = () => {
   duration: 2,
   x: 200,
   rotation: 360,
-  backgroundColor: "red",
+  backgroundColor: "#8d3dae",
 });`}
         </pre>
       </section>
