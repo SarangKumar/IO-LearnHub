@@ -62,19 +62,19 @@ day_x
 
 We will be having 12+1 classes in total. Each class will be of 2 hours. Except for the first one which will be of 1 hour.
 
-- [Day 1](/day_1/) - September 11, Mon [Student Onboarding]
+- [Day 1](/day_1) - September 11, Mon [Student Onboarding]
 - [Day 2](/day_2) - September 13, Wed
-- Day 3 - September 15, Fri
-- Day 4 - September 18, Mon
-- Day 5 - September 20, Wed
-- Day 6 - September 22, Fri
-- Day 7 - September 25, Mon
-- Day 8 - September 27, Wed
-- Day 9 - September 29, Fri
-- Day 10 - October 3, Tues
-- Day 11 - October 4, Wed
-- Day 12 - October 6, Fri
-- Day 13 - October 7, Sat [Final Presentation]
+- [Day 3](/day_3/) - September 15, Fri
+- [Day 4](/day_4/) - September 18, Mon
+- [Day 5](/day_5/) - September 20, Wed
+- [Day 6](/day_6/) - September 22, Fri
+- [Day 7](/day_7/) - September 25, Mon
+- [Day 8](/day_8/) - September 27, Wed
+- [Day 9](/day_9/) - September 29, Fri
+- [Day 10](/day_10/) - October 3, Tues
+- [Day 11](/day_11/) - October 4, Wed
+- [Day 12](/day_12/) - October 6, Fri
+- [Day 13](/day_13/) - October 7, Sat [Final Presentation]
 
 ## Evaluation policy
 > **Warning**
