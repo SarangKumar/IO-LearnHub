@@ -1,10 +1,9 @@
-# Assignment
+# Assignment 1
 
 - For this assignment you guys have to create a clone of [medium page](https://medium.com/tag/web-development/recommended)
 
 - After that you will have to deploy that. See below for aid.
 - This assignment will be of 25 marks, marking scheme will be shared soon.
-- The deadline for this will be **19 Sept EOD**.
 - I will be sending a google form where you have to fill in the details and the deployed url.
 - All of your works will be showcased in this repo.
 
@@ -20,6 +19,12 @@
 - Responsive: 5 marks
 
 ![Medium page template](/day_3/assignment/challenge_medium.png)
+
+
+## Submission deadline
+19 Sept(Tues), 2023
+
+
 # How to deploy
 
 ## Step 1:

@@ -1,4 +1,4 @@
-# Assignment 
+# Assignment 2
 
 Until now we have covered topics like:
 - What is `React`.
@@ -31,7 +31,9 @@ Component View
 - I have created a basic skeleton for you guys i.e. I have created the components and have also imported them in the `App.jsx` file also the assets are in the `public` folder. (In case you want to add or remove anything then you are free to do so)
 - You have to complete the assignment in the `src` folder.
 - Mare sure to make it as close as possible to this [particular image](./assignment-2/public/img/assignment_2_img.png).
-- **Last day for submission will be on Saturday (30 Sept)**
+
+## Submission deadline
+30 Sept(Sat), 2023
 
 > **Note**
 > Make sure you hit `npm install` before you start working on the assignment.
