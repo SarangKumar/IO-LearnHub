@@ -10,8 +10,8 @@ You are free to choose your component however there are some restrictions.
 
 - Reusable - The component can be used on multiple websites without much change.
 - Using GSAP is not a compulsion.
-- Make sure that it is responsive and the UI is well; fonts, color, and all are complimentary.
-- Be creative that will fetch you more marks.
+- Make sure that the component is responsive and the UI is well; fonts, color, and all are complimentary.
+- Being creative will fetch more marks.
 - Deploy on any provider - Vercel, Netlify, etc.
 
 
@@ -56,10 +56,10 @@ You are free to choose your component however there are some restrictions.
 </details>
 <br />
 
-> [!Warn]
+> [!WARNING]  
 > It is a solo task and make sure that team members don't submit the same component.
 
-## Marks distribution for Assignment 1: Total Marks - 25
+## Marks distribution for Assignment 3: Total Marks - 25
 - 5 Marks - deployment
 - 10 Marks - UI and creativity
 - 5 Marks - Responsiveness
