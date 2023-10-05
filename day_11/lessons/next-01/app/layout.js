@@ -2,18 +2,19 @@ import React from "react";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import { Roboto } from "next/font/google";
 
-import { Poppins } from "next/font/google";
-
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
+const roboto = Roboto({
+  weight: ['400', '700'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 const RootLayout = ({ children }) => {
   return (
     <html>
-      <body className={`${poppins} text-xs m-2 md:my-10 md:mx-auto md:max-w-2xl`}>
+      <body className={`${roboto.className} text-xs m-2 md:my-10 md:mx-auto md:max-w-2xl`}>
         <Navbar />
         {children}
         <Footer />

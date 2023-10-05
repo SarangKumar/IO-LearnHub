@@ -18,16 +18,20 @@ const Navbar = () => {
       name: "about",
     },
   ];
+
   const pathname = usePathname();
-  console.log(pathname);
+  console.log(pathname); // /about
+
+  // / -> /about
+  // /about -> /about
+  // /posts -> /about
+
   return (
     <nav className="flex gap-x-3 my-4 text-sm ">
       {links.map((link) => (
         <Link
           key={link.links}
-          className={`${
-            pathname === link.links && "underline"
-          } hover:underline capitalize`}
+          className={`${link.links==pathname && 'underline'} hover:bg-slate-200 capitalize`}
           href={link.links}
         >
           {link.name}

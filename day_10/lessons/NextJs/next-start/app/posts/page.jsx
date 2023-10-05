@@ -8,12 +8,14 @@ async function getData(url) {
 
 const PostPage = async () => {
   const allPosts = await getData("https://dummyjson.com/posts");
+  console.log(allPosts);
 
   return (
     <div>
-      <h1 className="text-3xl font-semibold">All Posts <span className="text-base">({allPosts.limit})</span></h1>
+      {/* {JSON.stringify(allPosts)} */}
+      <h1 className="text-3xl font-semibold">All Posts</h1>
 
-      <section className="columns-1 md:columns-2">
+      <section className="grid gap-4 grid-cols-1 md:grid-cols-2">
         {allPosts.posts.map((post) => (
           <PostCard
             key={post.id}
